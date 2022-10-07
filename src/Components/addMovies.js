@@ -107,4 +107,4 @@ const AddMovies = (props) => {
   );
 };
 
-export default addMovies;
+export default AddMovies;

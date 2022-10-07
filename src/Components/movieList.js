@@ -1,5 +1,5 @@
 import React from "react";
-import movieCard from "./movieCard";
+import MovieCard from "./MovieCard";
 const MovieList = ({ movies }) => {
   return (
     <div
@@ -12,10 +12,10 @@ const MovieList = ({ movies }) => {
       }}
     >
       {movies.map((movies, i) => (
-        <movieCard key={i} movie={movies} />
+        <MovieCard key={i} movie={movies} />
       ))}
     </div>
   );
 };
 
-export default movieList;
+export default MovieList;

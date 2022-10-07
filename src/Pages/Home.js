@@ -1,6 +1,6 @@
 import React from "react";
 import Filter from "../Components/Filter";
-import movieList from "../Components/movieList";
+import MovieList from "../Components/MovieList";
 const Home = (props) => {
   return (
     <div>
@@ -10,7 +10,7 @@ const Home = (props) => {
         rating={props.rating}
         setRating={props.setRating}
       />
-      <movieList
+      <MovieList
         movies={props.movies.filter(
           (movie, i) =>
             movie.title.toLowerCase().includes(props.text.toLowerCase()) &&
